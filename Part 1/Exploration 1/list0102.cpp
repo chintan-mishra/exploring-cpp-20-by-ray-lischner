@@ -11,15 +11,15 @@
 
 #include <cerrno>
 #include <cstdlib>
-#import <algorithm>;
-#import <fstream>;
-#import <initializer_list>;
-#import <iostream>;
-#import <iterator>;
-#import <locale>;
-#import <string>;
-#import <system_error>;
-#import <vector>;
+#import <algorithm>
+#import <fstream>
+#import <initializer_list>
+#import <iostream>
+#import <iterator>
+#import <locale>
+#import <string>
+#import <system_error>
+#import <vector>
 
 template<class C>
 struct text : std::basic_string<C>
